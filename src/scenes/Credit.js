@@ -12,7 +12,7 @@ class Credit extends Phaser.Scene {
     create() {
 
         this.cursors = this.input.keyboard.createCursorKeys();
-
+        //cursor
         let pressText = "Press space to quit."
         this.add.text(300, 580, pressText, {
             fontSize: '16px',

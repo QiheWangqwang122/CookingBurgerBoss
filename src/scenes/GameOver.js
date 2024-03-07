@@ -11,7 +11,7 @@ class GameOver extends Phaser.Scene {
     preload() {
         this.load.atlas('burgerAtlas', './assets/atlas/burgerAtlas.png', './assets/atlas/burgerAtlas.json');
     }
-
+    // create
     create() {
         // Check for high score in local storage
         this.highScore = localStorage.getItem('highScore') ? parseInt(localStorage.getItem('highScore'), 10) : 0;

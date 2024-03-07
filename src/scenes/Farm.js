@@ -12,7 +12,7 @@ class Farm extends Phaser.Scene {
         this.load.image('platform', './assets/scene/platform.png')
         this.load.image('platform_long', './assets/scene/platform_long.png')
         this.load.spritesheet('attack', './assets/player/attack.png', {frameWidth: 50, frameHeight: 46})
-    }
+    }//preload
 
     create() {
         let background = this.add.image(400, 300, 'background')

@@ -9,7 +9,7 @@ class GameDescribe extends Phaser.Scene {
         this.load.image('burger_recipe', './assets/description/burger_recipe.png')
         this.load.image('farm', './assets/description/farm.png')
     }
-
+    // text
     texts = [
         "The game is aiming to finish orders by cooking burger.\nYou are the Burger Boss!\nTry to live long and finish more orders to earn higher score.\n" + "Base move is based on 4-arrow key,  interaction key is “Space”.\n" + "Some of interaction needs keep holding the spacebar, e.g. stove, vegetebales.\n",
         "How to cook a burger?\n" + "Materials including ‘Cost material’ and ’Vegetables’.\nCost material including ‘meat’ and ‘sauce’.\n" + "Use ‘Cost material’ will cost material, meat can be got in the left scene(Farm).\nSauce cannot be obtained additionally.\n",
