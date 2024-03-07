@@ -12,7 +12,7 @@ class Play extends Phaser.Scene {
         // this.load.image('kitchen_bg', './assets/kitchin2.png');
 
     }
-
+// create
     create() {
         // Create the ground, making it static so it doesn't move
         const ground = this.physics.add.staticGroup();
