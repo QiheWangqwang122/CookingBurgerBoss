@@ -2,7 +2,7 @@ class GameDescribe extends Phaser.Scene {
     constructor() {
         super('describeScene');
     }
-
+    //
     preload() {
         this.load.image('base_scene', './assets/description/base_scene.png')
         this.load.image('action', './assets/description/action.png')

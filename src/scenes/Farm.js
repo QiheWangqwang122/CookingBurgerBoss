@@ -2,7 +2,7 @@ class Farm extends Phaser.Scene {
     constructor() {
         super('playFarm');
     }
-
+    //
     preload() {
 
         // this.load.spritesheet('player', './assets/PlayerRunning.png', { frameWidth: 32, frameHeight: 64 });

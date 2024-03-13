@@ -18,7 +18,7 @@ class PixelPlayer extends Phaser.Physics.Arcade.Sprite {
         this.jumpSpeed = -200; // The speed at which the player will move up
         this.moveSpeed = 150; // The speed for moving left or right
     }
-
+    ///
     update() {
         // Apply gravity manually if not using an Arcade Physics body
         // This is a simple way to simulate gravity if your character is floating

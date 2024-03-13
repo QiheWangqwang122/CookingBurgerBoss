@@ -4,7 +4,7 @@ class Play extends Phaser.Scene {
         // this.survivalTime = 0;
         // this.score = 0
     }
-
+    //
     preload() {
 
         // this.load.spritesheet('player', './assets/PlayerRunning.png', { frameWidth: 32, frameHeight: 64 });

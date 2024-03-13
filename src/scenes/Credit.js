@@ -8,7 +8,7 @@ class Credit extends Phaser.Scene {
     }
 
     texts = []
-
+    //
     create() {
 
         this.cursors = this.input.keyboard.createCursorKeys();

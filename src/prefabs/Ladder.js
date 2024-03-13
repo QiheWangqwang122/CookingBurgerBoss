@@ -14,6 +14,7 @@ class Ladder extends Phaser.Physics.Arcade.Sprite {
         // Assuming the ladder has some sort of tint or visual differentiation
         this.tint = Math.random() * 0xFFFFFF; // randomize tint for visual variety
     }
+    //
 
     update() {
         // destroy ladder if it goes off screen to the left

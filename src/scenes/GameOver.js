@@ -2,7 +2,7 @@ class GameOver extends Phaser.Scene {
     constructor() {
         super('GameOverscene');
     }
-
+    //
     init(data) {
         // Data passed from another scene includes the player's score
 
